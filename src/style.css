@@ -45,6 +45,7 @@ button:hover{
 }
 
 #header{
+    max-height: 100px;
     font-family: "CustomFont";
     font-size: calc(4vw + 4vh);
     text-align: center;
@@ -57,13 +58,9 @@ button:hover{
     background-color: var(--pink);
     width: 60vw;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
     justify-self: center;
     justify-items: center;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: flex-start;*/
-    /*align-items: center;*/
 }
 
 #headline{
