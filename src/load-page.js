@@ -5,9 +5,6 @@ const landingPage = function() {
     const header = new Component("h1", "id");
     const headerElement = header.generateElement("header", "Wellcome to Meloons!");
     const div = document.querySelector("#content");
-    div.textContent = ""
-
-    
 
     const headLine = new Component("p", "id")
     const headLineElement = headLine.generateElement(
@@ -18,6 +15,8 @@ const landingPage = function() {
     const logoImage = new Image()
     logoImage.src = Meloons
     logoImage.setAttribute("id", "logo")
+
+    div.textContent = ""
 
     div.appendChild(headerElement);
     div.appendChild(logoImage);

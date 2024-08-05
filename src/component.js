@@ -11,13 +11,4 @@ export default class Component{
 
         return element
     }
-
-    generateContainer(atrName){
-        const element = document.createElement("div")
-        element.setAttribute(this.attribute, atrName)
-
-        return element
-    }
-
-
 }
