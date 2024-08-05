@@ -1,10 +1,11 @@
 import Component from "./component";
 import Meloons from "./meloon.png";
 
-function LandingPage() {
+const landingPage = function() {
     const header = new Component("h1", "id");
     const headerElement = header.generateElement("header", "Wellcome to Meloons!");
     const div = document.querySelector("#content");
+    div.textContent = ""
 
     
 
@@ -24,5 +25,5 @@ function LandingPage() {
 };
 
 export {
-    LandingPage
+    landingPage
 }
