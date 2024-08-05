@@ -1,11 +1,12 @@
 :root{
     --pink: #dd88aa;
     --blue: #55aadd;
+    --red: #ff0066;
 }
 @font-face{
     font-family: "CustomFont";
-    src: url("./BigParty4Blue-2575.woff") format("woff"),
-    url("./BigParty4Blue-0f5b.woff2") format("woff2");
+    src: url("./BigFont.woff") format("woff"),
+    url("./BigFont.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
 }
@@ -37,6 +38,10 @@ button{
     border: solid 5px var(--blue);
     background-color: var(--pink);
     border-radius: 40px;
+}
+
+button:hover{
+    background-color: var(--red);
 }
 
 #header{

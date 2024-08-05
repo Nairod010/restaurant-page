@@ -1,5 +1,5 @@
 import Component from "./component";
-import Meloons from "./hello-meloon.png";
+import Meloons from "./meloon.png";
 
 function LandingPage() {
     const header = new Component("h1", "id");
