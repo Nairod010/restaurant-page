@@ -12,9 +12,9 @@ function aboutPage(){
     aboutHeader.textContent = "About Meloons"
 
     aboutContact.classList.add("about-contact")
-    aboutContact.textContent = ""
+    aboutContact.textContent = "Have questions or need more information? Feel free to reach out to us at realmail@fake.com. We'd love to hear from you!"
 
-    div.textContent = "Have questions or need more information? Feel free to reach out to us at realmail@fake.com. We'd love to hear from you!";
+    div.textContent = "";
 
     div.appendChild(aboutHeader)
     div.appendChild(aboutUs)

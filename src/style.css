@@ -122,4 +122,27 @@ button:hover{
     color: black;
 }
 
+.about-header{
+    grid-area: 1/1/1/4;
+    font-family: "CustomFont";
+    font-size: calc(4vw + 4vh);
+}
 
+.about-text{
+    grid-area: 2/2/2/2;
+}
+
+.about-contact{
+    grid-area: 3/2/3/3;
+}
+
+.about-text, .about-contact{
+    font-size: calc(1vw + 1vh); 
+    font-weight: 700;
+    color: white;
+}
+
+.about-header, .about-text, .about-contact{
+    align-self: center;
+    text-align: center;
+}
